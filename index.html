@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9ded4b4e9c.js" crossorigin="anonymous"></script>
+  <style>
+    .pic-profile {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    .navbar-custom {
+      background-color: #92c2ec;
+    }
+    .corPrimario{
+      background-color: #92c2ec;
+    }
+    .corSecundario{
+      background-color: #F7EF87;
+    }
+    p{
+      font-family: 'Helvetica Neue',Arial, Helvetica, sans-serif;
+      color: black !important;
+    }
+    .icons{
+      padding-left: 10px;
+    }
+    .whiteTitles{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    .blueTitles{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color:rgb(0, 81, 255);
+    }
+    .whiteText{
+      color: white !important;
+    }
+    .jumbotron{
+      margin-bottom: 0px;
+    }
+    .footerText{
+      margin:0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="#"><img src="image/logo(4).png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbotron text-center corPrimario">
+    <div class="container">
+      <img class="pic-profile" src="image/tat.jpg" alt="picture">
+      <h1 class="jumbotron-heading whiteText">Tatiana Sant'Ana</h1>
+      <p class="lead whiteText">Hi, I'm a Web Developer. I want to make things that make a difference.</p>
+      <p>
+        <a href="#contact" class="btn btn-dark my-2">Contact</a>
+      </p>
+      <a href="https://www.linkedin.com/in/tatiana-sant-ana"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/tatianabs"><i class="icons fab fa-github"></i></a>
+    </div>
+  </section>
+  <div class="album py-5 bg-light"id="projects">
+    <div class="container">
+<h2 class="jumbotron-heading text-center blueTitles">Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="image/cod.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text"><u>Orion Astrology Project</u> is a web application that contains information about astrology and horoscope
+                based on date of birth.The Website consists of the interaction between these PHP pages while using functions to faciliate access to information based on MySQL data.</p>
+              <ul>
+                <li>HTML5</li>
+                <li>CCS3</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>NetBeans</li>
+                <br><br>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/tatianabs/HTML-CSS-Project"> <button type="button"
+                      class="btn btn-sm btn-outline-primary">Check Project</button></a>
+                  <a href="https://github.com/tatianabs/HTML-CSS-Project/tree/master/Orion%20Astrology/public_html">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="image/cod.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text"><u>School Website Project</u> is a website project where a student can choose a course for his interest and enroll
+                in one that fulfills his objectives.</p>
+              <ul>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>CCS3</li>
+                <li>MySQL</li>
+                <li>Sublime</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/tatianabs/PHP-Project"> <button type="button"
+                      class="btn btn-sm btn-outline-primary">Check Project</button></a>
+                  <a href="https://github.com/tatianabs/PHP-Project/tree/master/School">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                    <br><br><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="image/cod.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text"><u>ATM Machine</u> is a prototype application simulating an atm machine.
+              After all transactions, all the data was saved in text files.</p>
+              <ul>
+                <li>C#</li>
+                <li>WPF</li>
+                <li>.NET</li>
+                <li>Visual Studio</li>
+                <li>Visio</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/tatianabs/ATM-Machine-C-"> <button type="button"
+                      class="btn btn-sm btn-outline-primary">Check Project</button></a>
+                  <a href="https://github.com/tatianabs/ATM-Machine-C-/tree/master/ATM-TATI">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                    <br><br><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="image/cod.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text"><u>Hangman Game</u> is a game where a player tries to guess a word by choosing a letter of the alphabet.
+             Whenever an incorrect letter is chosen, a part of the body is added to the image of the hangman.The word
+            must be guessed before the drawing is completed, otherwise; the game is over.</p>
+              <ul>
+                <li>JavaFax</li>
+                <li>Interface</li>
+                <li>GUI components</li>
+                <li>graphics</li>
+                <li>OOP concepts</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/tatianabs/Hangman"> <button type="button"
+                      class="btn btn-sm btn-outline-primary">Check Project</button></a>
+                  <a href="https://github.com/tatianabs/Hangman/tree/master/HangMan">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <section class="jumbotron text-center corPrimario" id="about-me">
+    <div class="container">
+      <h2 class="jumbotron-heading whiteTitles">About Me</h2>
+      <p class="lead whiteText" > As a Web Developer, I enjoy using my attention to detail and my great passion
+        for creating websites. With every line of code, I strive to make the web a beautifil place. Interested in working on 
+        ambitious projects with positive people.If you want to have a peek at some other projects, click <a href="https://github.com/tatianabs?tab=repositories"><u>here.</u></a>
+      </p>
+      <p class=" lead whiteText">Let's make something special!</p>
+    </div>
+  </section>
+  <section id="contact">
+    <div>
+      <div class="container-fluid">
+        <h3 style="padding-top: 60px;" class="text-center underline">Available for opportunities</h3>
+       <a href="mailto:tati06@gmail.com"><h4 style="padding-bottom: 60px;margin-bottom: 0px;" class="text-center"><span>&#128073;</span>tati06@gmail.com<span>&#128072;</span></h4></a> 
+      </div>
+    </div>
+  </section>
+  <footer class="text-center corSecundario footerText">
+    <p class="whiteText">&copy;Copyright 2020 Tatiana Sant'Ana</p>
+  </footer>
+</body>
+
+</html>
